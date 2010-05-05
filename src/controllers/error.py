@@ -16,3 +16,6 @@ class NotFoundHandler(webapp.RequestHandler):
     def get(self):
         logging.debug("404 - Not Found")
         view.Page().render_error(self, 404)
+        
+    def post(self):
+        raise NotImplementedError()
