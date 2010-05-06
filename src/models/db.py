@@ -1,6 +1,6 @@
 '''
 Created on May 4, 2010 
-updates from server3 and dru
+updates by dru4
 '''
 from google.appengine.ext import db
 
